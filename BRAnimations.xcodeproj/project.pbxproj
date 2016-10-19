@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E33217D21DB32D8A00C32DEC /* BRWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = E33217D11DB32D8A00C32DEC /* BRWaveView.m */; };
 		E3C9BE701DA37190001BB9DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C9BE6F1DA37190001BB9DC /* main.m */; };
 		E3C9BE731DA37190001BB9DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C9BE721DA37190001BB9DC /* AppDelegate.m */; };
 		E3C9BE761DA37190001BB9DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C9BE751DA37190001BB9DC /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E33217D01DB32D8A00C32DEC /* BRWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRWaveView.h; sourceTree = "<group>"; };
+		E33217D11DB32D8A00C32DEC /* BRWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRWaveView.m; sourceTree = "<group>"; };
 		E3C9BE6B1DA37190001BB9DC /* BRAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BRAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3C9BE6F1DA37190001BB9DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E3C9BE711DA37190001BB9DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				E3C9BE721DA37190001BB9DC /* AppDelegate.m */,
 				E3C9BE741DA37190001BB9DC /* ViewController.h */,
 				E3C9BE751DA37190001BB9DC /* ViewController.m */,
+				E33217D01DB32D8A00C32DEC /* BRWaveView.h */,
+				E33217D11DB32D8A00C32DEC /* BRWaveView.m */,
 				E3C9BE771DA37190001BB9DC /* Main.storyboard */,
 				E3C9BE7A1DA37190001BB9DC /* Assets.xcassets */,
 				E3C9BE7C1DA37190001BB9DC /* LaunchScreen.storyboard */,
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3C9BE761DA37190001BB9DC /* ViewController.m in Sources */,
+				E33217D21DB32D8A00C32DEC /* BRWaveView.m in Sources */,
 				E3C9BE731DA37190001BB9DC /* AppDelegate.m in Sources */,
 				E3C9BE701DA37190001BB9DC /* main.m in Sources */,
 			);
@@ -507,6 +513,7 @@
 				E3C9BE9A1DA37190001BB9DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3C9BE9B1DA37190001BB9DC /* Build configuration list for PBXNativeTarget "BRAnimationsTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +522,7 @@
 				E3C9BE9D1DA37190001BB9DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3C9BE9E1DA37190001BB9DC /* Build configuration list for PBXNativeTarget "BRAnimationsUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +531,7 @@
 				E3C9BEA01DA37190001BB9DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
