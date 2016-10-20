@@ -4,7 +4,7 @@
 //
 //  Created by 1234 on 2016/10/4.
 //  Copyright © 2016年 brave_hu. All rights reserved.
-//
+// github地址 https://github.com/braveeeehu/BRAnimations
 
 #import "ViewController.h"
 #import "BRWaveView.h"
