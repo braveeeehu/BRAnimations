@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "BRWaveView.h"
+//#import <Foundation/Foundation.h>
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -22,6 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSString *str = [NSString stringWithFormat:@"adf"];
     
     self.tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0,[UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height) style:UITableViewStylePlain];
     [self.view addSubview:self.tableView];

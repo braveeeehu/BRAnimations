@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E329F0171DB8C9B70043806A /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = E329F0161DB8C9B70043806A /* demo.gif */; };
 		E33217D21DB32D8A00C32DEC /* BRWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = E33217D11DB32D8A00C32DEC /* BRWaveView.m */; };
 		E3C9BE701DA37190001BB9DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C9BE6F1DA37190001BB9DC /* main.m */; };
 		E3C9BE731DA37190001BB9DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C9BE721DA37190001BB9DC /* AppDelegate.m */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E329F0161DB8C9B70043806A /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 		E33217D01DB32D8A00C32DEC /* BRWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRWaveView.h; sourceTree = "<group>"; };
 		E33217D11DB32D8A00C32DEC /* BRWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRWaveView.m; sourceTree = "<group>"; };
 		E3C9BE6B1DA37190001BB9DC /* BRAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BRAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +112,7 @@
 				E3C9BE751DA37190001BB9DC /* ViewController.m */,
 				E33217D01DB32D8A00C32DEC /* BRWaveView.h */,
 				E33217D11DB32D8A00C32DEC /* BRWaveView.m */,
+				E329F0161DB8C9B70043806A /* demo.gif */,
 				E3C9BE771DA37190001BB9DC /* Main.storyboard */,
 				E3C9BE7A1DA37190001BB9DC /* Assets.xcassets */,
 				E3C9BE7C1DA37190001BB9DC /* LaunchScreen.storyboard */,
@@ -252,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3C9BE7E1DA37190001BB9DC /* LaunchScreen.storyboard in Resources */,
+				E329F0171DB8C9B70043806A /* demo.gif in Resources */,
 				E3C9BE7B1DA37190001BB9DC /* Assets.xcassets in Resources */,
 				E3C9BE791DA37190001BB9DC /* Main.storyboard in Resources */,
 			);
